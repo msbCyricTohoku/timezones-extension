@@ -1,0 +1,96 @@
+/* --- Existing Base Styles --- */
+body {
+    font-family: sans-serif;
+    min-width: 250px; /* Adjust as needed */
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Default text color */
+}
+
+h1 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1a73e8; /* Google Blue */
+    text-align: center;
+}
+
+div {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+hr { /* Style for the optional separator */
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 5px 0;
+}
+
+div:last-child {
+    border-bottom: none;
+}
+
+/* --- NEW COLOR STYLES PER CITY --- */
+/* Note: Choose colors with good contrast against the light background (#f9f9f9) */
+
+#localTime {
+    color: #005A9C; /* A distinct dark blue for local time */
+    font-weight: bold; /* Make local time stand out */
+}
+
+#utcTime {
+    color: #666666; /* Gray for UTC */
+}
+
+#jstTime { /* Tokyo */
+    color: #990033; /* Deep Red/Wine */
+}
+
+#nycTime { /* New York */
+    color: #006A4E; /* Dark Green */
+}
+
+#londonTime { /* London */
+    color: #012169; /* Royal Blue */
+}
+
+#milanTime { /* Milan */
+    color: #CD7F32; /* Bronze/Orange */
+}
+
+#moscowTime { /* Moscow */
+    color: #8B0000; /* Dark Red / Maroon */
+}
+
+#tehranTime { /* Tehran */
+    color: #008080; /* Teal */
+}
+
+#delhiTime { /* New Delhi */
+    color: #FF8C00; /* Dark Orange / Saffron */
+}
+
+#beijingTime { /* Beijing */
+    color: #DE2910; /* Red */
+}
+
+#sydneyTime { /* Sydney */
+    color: #004B33; /* Forest Green */
+}
+
+#mexicoCityTime { /* Mexico City */
+    color: #800080; /* Purple */
+}
+
+#cairoTime { /* Cairo */
+    color: #A0522D; /* Sienna Brown */
+}
+
+#saoPauloTime { /* São Paulo */
+    color: #009739; /* Green */
+}
+
+/* --- End of New Color Styles --- */
