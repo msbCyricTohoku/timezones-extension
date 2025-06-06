@@ -32,18 +32,24 @@ function updateTimes() {
 
     //--- Other Time Zones ---
     setTime('utcTime', 'UTC', 'UTC');
-    setTime('jstTime', 'Asia/Tokyo', 'Tokyo (JST)');
-    setTime('nycTime', 'America/New_York', 'New York (ET)');
+    setTime('beijingTime', 'Asia/Shanghai', 'Beijing (CST)');
+    setTime('berlinTime', 'Europe/Berlin', 'Berlin (CET)');
+    setTime('buenosAiresTime', 'America/Argentina/Buenos_Aires', 'Buenos Aires (ART)');
+    setTime('cairoTime', 'Africa/Cairo', 'Cairo (EET)');
+    setTime('johannesburgTime', 'Africa/Johannesburg', 'Johannesburg (SAST)');
     setTime('londonTime', 'Europe/London', 'London (UK)');
+    setTime('mexicoCityTime', 'America/Mexico_City', 'Mexico City (CST)');
     setTime('milanTime', 'Europe/Rome', 'Milan (CET)'); //Italy uses Rome's zone
     setTime('moscowTime', 'Europe/Moscow', 'Moscow (MSK)');
-    setTime('tehranTime', 'Asia/Tehran', 'Tehran (IRST)');
     setTime('delhiTime', 'Asia/Kolkata', 'New Delhi (IST)'); //India uses Kolkata's zone
-    setTime('beijingTime', 'Asia/Shanghai', 'Beijing (CST)'); //China uses Shanghai's zone base
-    setTime('sydneyTime', 'Australia/Sydney', 'Sydney (AEST)');
-    setTime('mexicoCityTime', 'America/Mexico_City', 'Mexico City (CST)');
-    setTime('cairoTime', 'Africa/Cairo', 'Cairo (EET)');
+    setTime('nycTime', 'America/New_York', 'New York (ET)');
+    setTime('parisTime', 'Europe/Paris', 'Paris (CET)');
     setTime('saoPauloTime', 'America/Sao_Paulo', 'São Paulo (BRT)'); //Major Brazil Hub Time
+    setTime('singaporeTime', 'Asia/Singapore', 'Singapore (SGT)');
+    setTime('sydneyTime', 'Australia/Sydney', 'Sydney (AEST)');
+    setTime('tehranTime', 'Asia/Tehran', 'Tehran (IRST)');
+    setTime('jstTime', 'Asia/Tokyo', 'Tokyo (JST)');
+    setTime('vancouverTime', 'America/Vancouver', 'Vancouver (PT)');
 
 }
 
