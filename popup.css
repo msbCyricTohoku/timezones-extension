@@ -93,4 +93,28 @@ div:last-child {
     color: #009739; /* Green */
 }
 
+#berlinTime { /* Berlin */
+    color: #1E90FF; /* Dodger Blue */
+}
+
+#buenosAiresTime { /* Buenos Aires */
+    color: #2E8B57; /* Sea Green */
+}
+
+#johannesburgTime { /* Johannesburg */
+    color: #556B2F; /* Dark Olive Green */
+}
+
+#parisTime { /* Paris */
+    color: #C71585; /* Medium Violet Red */
+}
+
+#singaporeTime { /* Singapore */
+    color: #DC143C; /* Crimson */
+}
+
+#vancouverTime { /* Vancouver */
+    color: #4682B4; /* Steel Blue */
+}
+
 /* --- End of New Color Styles --- */
