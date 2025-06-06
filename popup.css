@@ -1,140 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-/* --- Existing Base Styles --- */
+/* --- Simplified, readable styles --- */
 body {
     font-family: 'Orbitron', sans-serif;
-    min-width: 250px; /* Adjust as needed */
+    min-width: 250px;
     padding: 10px;
     font-size: 14px;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #f0f0f0;
+    background: #ffffff;
+    color: #333333;
 }
 
 h1 {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 12px;
-    color: #00ffff;
+    color: #333333;
     text-align: center;
-    text-shadow: 0 0 5px #00ffff;
 }
 
 div {
     padding: 5px 0;
-    border-bottom: 1px solid #444;
-    white-space: nowrap; /* Prevent wrapping */
-    text-shadow: 0 0 3px rgba(255,255,255,0.6);
-}
-
-hr { /* Style for the optional separator */
-    border: 0;
-    height: 1px;
-    background-color: #555;
-    margin: 5px 0;
+    border-bottom: 1px solid #dddddd;
+    white-space: nowrap;
 }
 
 div:last-child {
     border-bottom: none;
 }
-
-/* --- NEW COLOR STYLES PER CITY --- */
-/* Note: Choose colors with good contrast against the light background (#f9f9f9) */
-
-#localTime {
-    color: #005A9C; /* A distinct dark blue for local time */
-    font-weight: bold; /* Make local time stand out */
-}
-
-#utcTime {
-    color: #666666; /* Gray for UTC */
-}
-
-#jstTime { /* Tokyo */
-    color: #990033; /* Deep Red/Wine */
-}
-
-#nycTime { /* New York */
-    color: #006A4E; /* Dark Green */
-}
-
-#londonTime { /* London */
-    color: #012169; /* Royal Blue */
-}
-
-#milanTime { /* Milan */
-    color: #CD7F32; /* Bronze/Orange */
-}
-
-#moscowTime { /* Moscow */
-    color: #8B0000; /* Dark Red / Maroon */
-}
-
-#tehranTime { /* Tehran */
-    color: #008080; /* Teal */
-}
-
-#delhiTime { /* New Delhi */
-    color: #FF8C00; /* Dark Orange / Saffron */
-}
-
-#beijingTime { /* Beijing */
-    color: #DE2910; /* Red */
-}
-
-#sydneyTime { /* Sydney */
-    color: #004B33; /* Forest Green */
-}
-
-#mexicoCityTime { /* Mexico City */
-    color: #800080; /* Purple */
-}
-
-#cairoTime { /* Cairo */
-    color: #A0522D; /* Sienna Brown */
-}
-
-#saoPauloTime { /* São Paulo */
-    color: #009739; /* Green */
-}
-
-#berlinTime { /* Berlin */
-    color: #1E90FF; /* Dodger Blue */
-}
-
-#buenosAiresTime { /* Buenos Aires */
-    color: #2E8B57; /* Sea Green */
-}
-
-#johannesburgTime { /* Johannesburg */
-    color: #556B2F; /* Dark Olive Green */
-}
-
-#parisTime { /* Paris */
-    color: #C71585; /* Medium Violet Red */
-}
-
-#singaporeTime { /* Singapore */
-    color: #DC143C; /* Crimson */
-}
-
-#vancouverTime { /* Vancouver */
-    color: #4682B4; /* Steel Blue */
-}
-
-#istanbulTime { /* Istanbul */
-    color: #FF4500; /* OrangeRed */
-}
-
-#dhakaTime { /* Dhaka */
-    color: #FFD700; /* Gold */
-}
-
-#dubaiTime { /* Dubai */
-    color: #40E0D0; /* Turquoise */
-}
-
-#seoulTime { /* Seoul */
-    color: #7FFF00; /* Chartreuse */
-}
-
-/* --- End of New Color Styles --- */
