@@ -50,6 +50,10 @@ function updateTimes() {
     setTime('tehranTime', 'Asia/Tehran', 'Tehran (IRST)');
     setTime('jstTime', 'Asia/Tokyo', 'Tokyo (JST)');
     setTime('vancouverTime', 'America/Vancouver', 'Vancouver (PT)');
+    setTime('istanbulTime', 'Europe/Istanbul', 'Istanbul (TRT)');
+    setTime('dhakaTime', 'Asia/Dhaka', 'Dhaka (BST)');
+    setTime('dubaiTime', 'Asia/Dubai', 'Dubai (GST)');
+    setTime('seoulTime', 'Asia/Seoul', 'Seoul (KST)');
 
 }
 

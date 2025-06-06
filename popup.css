@@ -1,31 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 /* --- Existing Base Styles --- */
 body {
-    font-family: sans-serif;
+    font-family: 'Orbitron', sans-serif;
     min-width: 250px; /* Adjust as needed */
     padding: 10px;
     font-size: 14px;
-    background-color: #f9f9f9; /* Light background */
-    color: #333; /* Default text color */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
 }
 
 h1 {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 12px;
-    color: #1a73e8; /* Google Blue */
+    color: #00ffff;
     text-align: center;
+    text-shadow: 0 0 5px #00ffff;
 }
 
 div {
     padding: 5px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #444;
     white-space: nowrap; /* Prevent wrapping */
+    text-shadow: 0 0 3px rgba(255,255,255,0.6);
 }
 
 hr { /* Style for the optional separator */
     border: 0;
     height: 1px;
-    background-color: #ddd;
+    background-color: #555;
     margin: 5px 0;
 }
 
@@ -115,6 +119,22 @@ div:last-child {
 
 #vancouverTime { /* Vancouver */
     color: #4682B4; /* Steel Blue */
+}
+
+#istanbulTime { /* Istanbul */
+    color: #FF4500; /* OrangeRed */
+}
+
+#dhakaTime { /* Dhaka */
+    color: #FFD700; /* Gold */
+}
+
+#dubaiTime { /* Dubai */
+    color: #40E0D0; /* Turquoise */
+}
+
+#seoulTime { /* Seoul */
+    color: #7FFF00; /* Chartreuse */
 }
 
 /* --- End of New Color Styles --- */
